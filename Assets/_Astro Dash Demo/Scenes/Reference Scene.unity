@@ -255,10 +255,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Managers.GameManager
   uiManager: {fileID: 1991600527}
-  initialSpeed: 0
-  maxSpeed: 0
-  speedIncrement: 0
-  speedIncrementInterval: 0
+  initialSpeed: 2
+  maxSpeed: 300
+  speedIncrement: 10
+  speedIncrementInterval: 1
 --- !u!4 &149064684
 Transform:
   m_ObjectHideFlags: 0
@@ -3390,7 +3390,7 @@ GameObject:
   - component: {fileID: 1810616749}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
