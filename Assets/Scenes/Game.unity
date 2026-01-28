@@ -1244,7 +1244,7 @@ Transform:
   m_GameObject: {fileID: 1344268446}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.079, z: 0}
+  m_LocalPosition: {x: 0, y: -3.215, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1304,8 +1304,8 @@ Transform:
   m_GameObject: {fileID: 1704795384}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0.050163, z: 0}
+  m_LocalScale: {x: 0.5875, y: 0.4746875, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1742608831}
@@ -1356,13 +1356,15 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.03575182, y: 0.5495268}
-      - {x: -0.2717715, y: 0.35906962}
-      - {x: -0.23026699, y: -0.3656944}
-      - {x: 0.01278162, y: -0.36569405}
-      - {x: 0.19451487, y: -0.36569405}
-      - {x: 0.19311714, y: 0.38052082}
-      - {x: 0.23601961, y: 0.38052076}
+    - - {x: 0.006631081, y: 0.84406453}
+      - {x: -0.32772455, y: 0.719374}
+      - {x: -0.33654588, y: 0.20994961}
+      - {x: -0.16774066, y: -0.063143015}
+      - {x: -0.24959439, y: -0.81722456}
+      - {x: 0.22306943, y: -0.81722397}
+      - {x: 0.16444483, y: -0.5328766}
+      - {x: 0.13402463, y: 0.062922806}
+      - {x: 0.26141194, y: 0.6208889}
   m_UseDelaunayMesh: 1
 --- !u!1 &1742608830
 GameObject:
@@ -1390,7 +1392,7 @@ Transform:
   m_GameObject: {fileID: 1742608830}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.03, y: 0.17, z: 0}
+  m_LocalPosition: {x: -7.03, y: 0.225, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
