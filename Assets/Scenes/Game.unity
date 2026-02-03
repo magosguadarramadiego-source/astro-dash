@@ -916,8 +916,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 26.604967, y: -8.195}
+  m_SizeDelta: {x: -53.210064, y: -16.39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &670606951
 MonoBehaviour:
@@ -941,15 +941,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: XXX.XXs
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 569e9140ea436f34195ebfc8611063d9, type: 2}
+  m_sharedMaterial: {fileID: -8225401101561176869, guid: 569e9140ea436f34195ebfc8611063d9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4294928896
+  m_fontColor: {r: 0, g: 0.41486025, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -961,7 +961,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
+  m_TextStyleHashCode: 2656128
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -1101,15 +1101,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 0.8255108, g: 0.8352941, b: 0, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 2086c9e4545383c4986b49f683bcd738, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1671,11 +1671,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd14b7928a3542db9820a59e9f000f4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Managers.GameManager
-  uiManager: {fileID: 0}
-  initialSpeed: 0
-  maxSpeed: 0
-  speedIncrement: 0
-  speedIncrementInterval: 0
+  uiManager: {fileID: 1976580345}
+  initialSpeed: 3
+  maxSpeed: 0.25
+  speedIncrement: 0.25
+  speedIncrementInterval: 5
 --- !u!4 &1529274034
 Transform:
   m_ObjectHideFlags: 0
@@ -1685,7 +1685,7 @@ Transform:
   m_GameObject: {fileID: 1529274032}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.42744, y: 0.85165, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1888,8 +1888,8 @@ MonoBehaviour:
   mainMenuDefaultSelection: {fileID: 0}
   gameOverDefaultSelection: {fileID: 0}
   mainMenuUI: {fileID: 0}
-  gameUI: {fileID: 0}
-  gameScoreText: {fileID: 0}
+  gameUI: {fileID: 1139403646}
+  gameScoreText: {fileID: 670606951}
   gameOverUI: {fileID: 0}
   gameOverScoreText: {fileID: 0}
 --- !u!4 &1976580346
@@ -1901,7 +1901,7 @@ Transform:
   m_GameObject: {fileID: 1976580344}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.42744, y: 0.85165, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1973,6 +1973,10 @@ PrefabInstance:
     - target: {fileID: 884415887964259177, guid: 983591f386850e44388e601bc6c99749, type: 3}
       propertyPath: m_Name
       value: Jose
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382246156240872812, guid: 983591f386850e44388e601bc6c99749, type: 3}
+      propertyPath: jumpForce
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7193365221497113454, guid: 983591f386850e44388e601bc6c99749, type: 3}
       propertyPath: m_LocalPosition.x
