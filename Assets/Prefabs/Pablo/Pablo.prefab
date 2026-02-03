@@ -251,6 +251,7 @@ GameObject:
   - component: {fileID: 3129283619464661149}
   - component: {fileID: 4224415534476551206}
   - component: {fileID: 3793873602790841049}
+  - component: {fileID: 5686594155605947202}
   m_Layer: 0
   m_Name: Pablo
   m_TagString: Enemy
@@ -316,3 +317,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 6
+--- !u!114 &5686594155605947202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9075175951803741146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 832790b1d08740918d072f986517472e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemies.Behaviors.FreezeYOnGround
+  rb: {fileID: 3793873602790841049}
+  groundCollider: {fileID: 8757744555788754671}
