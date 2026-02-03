@@ -211,7 +211,7 @@ MonoBehaviour:
   rb: {fileID: 3646318875830818691}
   animator: {fileID: 0}
   audioSource: {fileID: 0}
-  jumpForce: 100
+  jumpForce: 150
   jumpClip: {fileID: 0}
   dieClip: {fileID: 0}
 --- !u!1 &4786326800829560393
