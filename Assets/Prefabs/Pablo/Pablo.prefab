@@ -252,6 +252,7 @@ GameObject:
   - component: {fileID: 4224415534476551206}
   - component: {fileID: 3793873602790841049}
   - component: {fileID: 5686594155605947202}
+  - component: {fileID: -8341721222054922690}
   m_Layer: 0
   m_Name: Pablo
   m_TagString: Enemy
@@ -331,3 +332,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemies.Behaviors.FreezeYOnGround
   rb: {fileID: 3793873602790841049}
   groundCollider: {fileID: 8757744555788754671}
+--- !u!95 &-8341721222054922690
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9075175951803741146}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 41b2bf3ea9a4c344880e9a0c3821185d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
