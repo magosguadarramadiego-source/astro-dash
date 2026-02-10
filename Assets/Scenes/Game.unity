@@ -3798,33 +3798,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1189568707}
   m_CullTransparentMesh: 1
---- !u!1 &1211043077 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 884415887964259177, guid: 983591f386850e44388e601bc6c99749, type: 3}
-  m_PrefabInstance: {fileID: 5820932438567121576}
-  m_PrefabAsset: {fileID: 0}
---- !u!95 &1211043082
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1211043077}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 7e934ba030e934448a24fe9ea87b15dd, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1243221736
 GameObject:
   m_ObjectHideFlags: 0
@@ -5705,10 +5678,10 @@ MonoBehaviour:
   eventSystem: {fileID: 1133391623}
   mainMenuDefaultSelection: {fileID: 1351391008}
   gameOverDefaultSelection: {fileID: 0}
-  mainMenuUI: {fileID: 1508242591}
-  gameUI: {fileID: 1508242591}
+  mainMenuUI: {fileID: 651620854}
+  gameUI: {fileID: 1139403646}
   gameScoreText: {fileID: 670606951}
-  gameOverUI: {fileID: 0}
+  gameOverUI: {fileID: 1508242591}
   gameOverScoreText: {fileID: 2083052461}
 --- !u!4 &1976580346
 Transform:
@@ -6349,14 +6322,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jose
       objectReference: {fileID: 0}
-    - target: {fileID: 2382246156240872812, guid: 983591f386850e44388e601bc6c99749, type: 3}
-      propertyPath: animator
-      value: 
-      objectReference: {fileID: 1211043082}
-    - target: {fileID: 2382246156240872812, guid: 983591f386850e44388e601bc6c99749, type: 3}
-      propertyPath: jumpForce
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 7193365221497113454, guid: 983591f386850e44388e601bc6c99749, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -6400,10 +6365,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 884415887964259177, guid: 983591f386850e44388e601bc6c99749, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1211043082}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 983591f386850e44388e601bc6c99749, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
